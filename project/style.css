@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #f1f3f6;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.flipkart-items {
+    display: flex;
+    gap: 15px;
+}
+
+.flipkart {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.flipkart p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.location a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 20px;
+}
+
+.search-items {
+    display: flex;
+    align-items: center;
+    background-color: #f0f5ff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 45%;
+}
+
+.search-items i {
+    color: #717478;
+    margin-right: 10px;
+}
+
+.search-items input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu-item i {
+    font-size: 12px;
+    color: #666;
+}
+
+.fashion-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: white;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.fashion-items::-webkit-scrollbar {
+    display: none;
+}
+
+.fashion-items > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 70px;
+    flex-shrink: 0;
+}
+
+.fashion-items img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.fashion-items div > div {
+    font-size: 12px;
+    color: #333;
+    margin-top: 6px;
+    white-space: nowrap;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: #f1f3f6;
+}
+
+.product-card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+}
+
+.card-img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #f0f0f0;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.more-badge {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.card-details {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.product-title {
+    font-size: 15px;
+    color: #666666;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.old-price {
+    font-size: 13px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: 13px;
+    color: #03a685;
+    font-weight: bold;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.rating-badge {
+    background-color: #03a685;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+
+.reviews-count {
+    font-size: 12px;
+    color: #777777;
+}
+
+.trusted-badge {
+    background-color: #f2e3f7;
+    color: #82249c;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .header, nav {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-items {
+        width: 100%;
+    }
+
+    .flipkart-items {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .product-container {
+        padding: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 12px;
+    }
+
+    .card-img {
+        height: 160px;
+    }
+
+    .current-price {
+        font-size: 17px;
+    }
+}
