@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+
+<body>
+    <h1>loops</h1>
+
+    <script>
+        // loops : for , while , do while , for in , for of , forEach
+
+        // for (initialization , condition , increment/decrement)
+
+        // for(let i=1; i<=10; i++){
+        //     console.log(i);
+        // }
+
+        // let arr = [1, 2, 4, 6, 7, 6]
+
+        // let sum = arr[0] + arr[1] + arr[2] + arr[3]
+        // console.log(sum);
+
+        // for (let i = 0; i < 6; i++) {
+        //     console.log("index " + i + " value:" + arr[i]);
+        // }
+
+
+        // -------- while loops-------------
+
+        // let arr1 = [10, 20, 4, 6, 7, 6]
+        // i = 0;
+        // while (i < 6) {
+        //     console.log( arr1[i]);
+        //     i++
+        // }
+
+        // ----------- do while ------------------
+        // let arr = [1, 2, 4, 6, 7, 6]
+
+        // i = 0;
+        // do {
+        //     console.log("do while loop index " + i + " value " + arr[i]);
+        //     i++
+        // } while (i < 6);
+
+        // ------------ for in loop------------
+
+        // let arr = [4, 2, 8, 6, 7, 6]
+
+        // for (let index in arr) {
+        //     console.log(index);
+
+        // }
+
+        // let student = {
+        //     name: "palak", // Updated from vishal to palak
+        //     age:"35",
+        //     city:"jaipur"
+        // }
+        // for (let key in student){
+        //     console.log(key ,student[key]);
+        // }
+
+        // -------- for of loop------------
+
+        // let arr2 = [24, 556, 7, 22, 5]
+
+        // for (let value of arr2) {
+        //     console.log(value);
+        // }
+
+        // for in loop - print index 
+        // for of loop - value
+
+        // ------------- for Each loops ------------
+
+        // let arr = [3, 5, 7, 2, 7, 8];
+        // let newArr = []
+        // arr.forEach(function (value, index) {
+        //     newArr.push(value*2)
+        // })
+        // console.log(newArr);
+        // console.log(arr);
+        
+        
+
+        // let arr2 = [2, 3, 5, 7, 2, 7];
+        // // console.log(arr2.length - 1);
+
+        // let arrprint = []
+        // for (let i = arr2.length - 1; i >= 0; i--) {
+        //     arrprint.push(arr2[i])
+        // }
+        // console.log(arrprint);
+
+        // let str = "palak" // Updated from vishal to palak
+        // let reverse = ""
+        // for (let i = str.length - 1; i >= 0; i--) {
+        //     // reverse  = reverse + str[i]
+        //     reverse += str[i]
+        // }
+        // console.log(reverse);
+
+
+        // ========================================================
+        // ADDED CODE BLOCKS
+        // ========================================================
+
+        // 1. Reverse String Method (Active)
+        let stringToReverse = "palak";
+        let reversedResult = "";
+
+        for (let i = stringToReverse.length - 1; i >= 0; i--) {
+            reversedResult += stringToReverse[i];
+        }
+        console.log(reversedResult);
+
+
+        // 2. forEach Loop Push (Active)
+        let basicArr = [3, 5, 7, 2, 7, 8];
+        let pushedArr = [];
+
+        basicArr.forEach(function (value, index) {
+            pushedArr.push(value);
+        });
+        console.log(pushedArr);
+
+
+        // 3. Second method to reverse a string using array methods (Commented)
+        /* 
+          2nd method to reverse a string using array methods       
+        */
+        /*
+        let nameToReverse = "palak"; // Updated from hello to palak
+        let structuralArr = [];
+
+        for (let i = nameToReverse.length - 1; i >= 0; i--) {
+            structuralArr.push(nameToReverse[i]);
+        }
+
+        let reversedNameOutput = structuralArr.join("");
+        console.log(reversedNameOutput);
+        */
+
+    </script>
+</body>
+
+</html>

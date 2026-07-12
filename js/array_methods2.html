@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Approach</title>
+</head>
+<body>
+    <script>
+        let arr3 = [8, 2, 6, 1, 8, 46, 24];
+        let allEven = true;
+
+        for (let value of arr3) {
+            if (value % 2 !== 0) {
+                allEven = false;
+                break;
+            }
+        }
+
+        console.log(allEven);
+    </script>
+</body>
+</html>
