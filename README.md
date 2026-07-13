@@ -5,7 +5,7 @@ This repository serves as my structured workspace for documenting my journey in 
 ## 📁 Repository Structure
 - `html/` : Semantic HTML5 structures and the markup practice.
 - `css/` : Styling techniques, responsive design, and CSS layouts.
-- `js/` : JavaScript logic, DOM manipulation, and interactive features.
+- `js/` : JavaScript logic, DOM manipulation, and the interactive features.
 - `animation/` : CSS and JS-based animation experiments.
 - `project/` : Integrated web application projects.
 
