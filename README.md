@@ -15,7 +15,7 @@ This repository serves as my structured workspace for documenting my journey in 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 🎯 Goals
-- [ ] Master advanced CSS layouts and animations.
+- [ ] Master the advanced CSS layouts and animations.
 - [ ] Strengthen core JavaScript logic and ES6+ features.
 - [ ] Build production-ready, responsive full-stack applications.
 
