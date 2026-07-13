@@ -3,7 +3,7 @@
 This repository serves as my structured workspace for documenting my journey in **Full Stack Development**. Here, I track my progress, practice core web technologies, and build foundational projects.
 
 ## 📁 Repository Structure
-- `html/` : Semantic HTML5 structures and markup practice.
+- `html/` : Semantic HTML5 structures and the markup practice.
 - `css/` : Styling techniques, responsive design, and CSS layouts.
 - `js/` : JavaScript logic, DOM manipulation, and interactive features.
 - `animation/` : CSS and JS-based animation experiments.
