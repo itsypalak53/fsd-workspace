@@ -6,7 +6,7 @@ This repository serves as my structured workspace for documenting my journey in 
 - `html/` : Semantic HTML5 structures and the markup practice.
 - `css/` : Styling techniques, responsive design, and CSS layouts.
 - `js/` : JavaScript logic, DOM manipulation, and the interactive features.
-- `animation/` : CSS and JS-based animation experiments.
+- `animation/` : CSS and the JS-based animation experiments.
 - `project/` : Integrated web application projects.
 
 ## 🛠 Tech Stack
